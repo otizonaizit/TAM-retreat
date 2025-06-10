@@ -4,13 +4,13 @@ Schedule
 time        | topic
 ----------- | -----
 09:00-10:30 | arrival
-10:30-12:00 | ODD
-12:00-13:00 | lunch
-13:00-15:15 | ODD
-15:15-15:30 | HPC infrastructure
-15:30-16:00 | coffee break
-16:00-18:00 | comp arch
-18:00-19:00 | dinner
-19:00-open  | reflections
+10:30-12:30 | ODD
+12:30-13:30 | lunch
+13:30-14:45 | ODD
+14:45-15:00 | HPC infrastructure
+15:00-15:30 | coffee break
+15:30-18:30 | comp arch
+18:30-19:30 | dinner
+19:30-open  | reflections
 
 
