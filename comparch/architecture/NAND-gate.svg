@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+	<!ENTITY st0 "letter-spacing:-3px;">
+	<!ENTITY st1 "fill:none;">
+	<!ENTITY st2 "fill:none;stroke:#000000;stroke-width:3px;">
+	<!ENTITY st3 "fill:none;stroke:#000000;stroke-width:6px;">
+	<!ENTITY st4 "font-size:36px;">
+	<!ENTITY st5 "font-size:48px;">
+	<!ENTITY st6 "font-family:Times,'Times New Roman',serif; font-weight:normal; font-style:italic;">
+]>
+<svg  version="1.1" id="Layer_2" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="648" height="531" viewBox="0 0 648 531"
+	 style="overflow:visible;enable-background:new 0 0 648 531;" xml:space="preserve">
+<rect style="&st1;" width="648" height="531"/>
+<g>
+	<g>
+		<line style="&st3;" x1="441" y1="297" x2="441" y2="369"/>
+		<line style="&st2;" x1="441" y1="324" x2="486" y2="297"/>
+		<g>
+			<line style="&st2;" x1="441" y1="342" x2="486" y2="369"/>
+			<polygon points="466.9,366.817 486,369 475.086,353.175 			"/>
+		</g>
+		<circle style="&st2;" cx="459" cy="333" r="45"/>
+	</g>
+	<g>
+		<line style="&st3;" x1="288" y1="234" x2="216" y2="234"/>
+		<line style="&st2;" x1="261" y1="234" x2="288" y2="279"/>
+		<g>
+			<line style="&st2;" x1="243" y1="234" x2="216" y2="279"/>
+			<polygon points="218.183,259.9 216,279 231.825,268.086 			"/>
+		</g>
+		<g>
+			<line style="&st2;" x1="261" y1="234" x2="234" y2="279"/>
+			<polygon points="236.183,259.9 234,279 249.825,268.086 			"/>
+		</g>
+		<circle style="&st2;" cx="252" cy="252" r="45"/>
+	</g>
+	<polyline style="&st2;" points="288,279 360,279 360,333 441,333 	"/>
+	<polyline style="&st2;" points="234,279 180,369 81,369 	"/>
+	<polyline style="&st2;" points="216,279 189,324 81,324 	"/>
+	<line style="&st2;" x1="81" y1="468" x2="594" y2="468"/>
+	<line style="&st2;" x1="486" y1="495" x2="540" y2="495"/>
+	<line style="&st2;" x1="495" y1="504" x2="531" y2="504"/>
+	<line style="&st2;" x1="504" y1="513" x2="522" y2="513"/>
+	<line style="&st2;" x1="513" y1="495" x2="513" y2="468"/>
+	<line style="&st2;" x1="486" y1="369" x2="486" y2="468"/>
+	<line style="&st2;" x1="252" y1="234" x2="252" y2="171"/>
+	<polyline style="&st2;" points="252,171 266,164.25 238,150.75 266,137.25 238,123.75 266,110.25 238,96.75 252,90 	"/>
+	<polyline style="&st2;" points="486,171 500,164.25 472,150.75 500,137.25 472,123.75 500,110.25 472,96.75 486,90 	"/>
+	<line style="&st2;" x1="486" y1="297" x2="486" y2="171"/>
+	<line style="&st2;" x1="252" y1="90" x2="252" y2="45"/>
+	<line style="&st2;" x1="486" y1="45" x2="486" y2="90"/>
+	<line style="&st2;" x1="81" y1="45" x2="594" y2="45"/>
+	<line style="&st2;" x1="486" y1="216" x2="594" y2="216"/>
+	<text transform="matrix(1 0 0 1 18 54)"><tspan x="0" y="0" style="&st6; &st5; &st0;">V</tspan><tspan x="25.48" y="5" style="&st6; &st4;">cc</tspan></text>
+	<text transform="matrix(1 0 0 1 18 459)" style="&st6; &st5;">GND</text>
+	<text transform="matrix(1 0 0 1 170 140)" style="&st6; &st5;">R1</text>
+	<text transform="matrix(1 0 0 1 410 140)" style="&st6; &st5;">R2</text>
+	<text transform="matrix(1 0 0 1 120 230)" style="&st6; &st5;">VT1</text>
+	<text transform="matrix(1 0 0 1 380 280)" style="&st6; &st5;">VT2</text>
+	<text transform="matrix(1 0 0 1 19.2959 333)" style="&st6; &st5;">A</text>
+	<text transform="matrix(1 0 0 1 18.4336 377)" style="&st6; &st5;">B</text>
+	<text transform="matrix(1 0 0 1 603 223.1104)" style="&st6; &st5;">Q</text>
+</g>
+</svg>
