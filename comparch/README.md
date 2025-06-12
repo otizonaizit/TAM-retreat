@@ -63,7 +63,16 @@ Setup:
 ## Back to the Python benchmark (third try)
   - can we explain what is happening now? Yes, more or less ;-)
   - quick fix for the [puzzle](puzzle.ipynb): try and add `order='F'` in the "bad" snippet and see that it "fixes" the bug ➔ why?
-  - the default memeory layout is called "C-contiguous" or "row-major": `np.zeros((2,2)).flags.c_contiguous == True` and `np.zeros((2,2)).flags.c_contiguous == False` 
+  - the default memeory layout is called "C-contiguous" or "row-major": 
+      ```python
+      np.zeros((2,2)).flags.c_contiguous == True
+      np.zeros((2,2)).flags.f_contiguous == False
+      ```
+  - note that for one-dimensional arrays it makes no difference:
+      ```python
+      np.zeros(2).flags.c_contiguous == True
+      np.zeros(2).flags.f_contiguous == True
+      ```
   - rule of thumb for multi-dimensional numpy arrays:
     - the right-most index should be the inner-most loop in a series of nested loops over the dimensions of a multi-dimensional array
     - the previous rule can be remembered as *the right-most index changes the faster* in a series of nested loops
