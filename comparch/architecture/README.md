@@ -11,7 +11,7 @@
     - `bin(14)` ➔ `'0b1110'`
     - `np.iinfo(np.int32)` ➔ `iinfo(min=-2147483648, max=2147483647, dtype=int32)`
     - Python integers, as opposed to numpy integer types, are represented with a flexible number of bits: `sys.int_info` ➔ `bits_per_digit=30, sizeof_digit=4, default_max_str_digits=4300, str_digits_check_threshold=640`
-      - they are called "long" or "sperlong" integers, because they can have arbitrary size. Low level implementation explained:
+      - they are called "long" or "superlong" integers, because they can have arbitrary size. Low level implementation explained:
         - [Arpit Bhayani's blog](https://arpitbhayani.me/blogs/long-integers-python/)
         - [Artem Golubin's blog](https://rushter.com/blog/python-integer-implementation/)
 
@@ -66,7 +66,7 @@
 
 # …and what about the GPU?
 ![GPU vs CPU architecture](GPUvsCPU-architecture.png)
-  - A GPU has many (in the order of hundreds) SIMT (single instruction, multiple thread) cores, so called SMs (Streaming Multiprocessors), each one with local L1 and shared L2 caches, and shared RAM (due to to the high parallelism, with huge bandwidth, in the order of ~1TB/s
+  - A GPU has many (in the order of hundreds) SIMT (single instruction, multiple thread) cores, so called SMs (Streaming Multiprocessors), each one with local L1 and shared L2 caches, and shared RAM (due to to the high parallelism, with huge bandwidth, in the order of ~1TB/s)
   - The SMs are specialized on data types. In order of abundance, the following data types are supported: int8, int32, int64, float16, float32, float64
   - Performance depends on:
     - memory bandwidth: usually higher than CPU's RAM
