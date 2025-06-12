@@ -84,6 +84,7 @@ Setup:
     - … unless of course you plan to mostly loop *across* time series :)
     - watch out when migrating code from MATLAB® : it stores data in memory using the opposite convention, the column-major order!
     - **DANGER**: watch out when working with [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html):
+        
         ➔ the data are stored in memory using different conventions depending on how the `DataFrame` was initialized! Be sure to
         check the `DataFrame.values.flags` attribute!
 
