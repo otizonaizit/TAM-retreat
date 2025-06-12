@@ -82,8 +82,10 @@ Setup:
           y = np.zeros((length_of_one_series, n_series)) # ➔ bad!
         ```
     - … unless of course you plan to mostly loop *across* time series :)
-    - watch out when migrating code from MATLAB® or to [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
-        ➔ they store data in memory using the opposite convention, the column-major order!!!
+    - watch out when migrating code from MATLAB® : it stores data in memory using the opposite convention, the column-major order!
+    - **DANGER**: watch out when working with [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html):
+        ➔ the data are stored in memory using different conventions depending on how the `DataFrame` was initialized! Be sure to
+        check the `DataFrame.values.flags` attribute!
 
 ## A final exercise to put it all together
   - fork this repo to your account and clone your fork on the laptop
