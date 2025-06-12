@@ -63,7 +63,7 @@ Setup:
 ## Back to the Python benchmark (third try)
   - can we explain what is happening now? Yes, more or less ;-)
   - quick fix for the [puzzle](puzzle.ipynb): try and add `order='F'` in the "bad" snippet and see that it "fixes" the bug ➔ why?
-  - the default memeory layout is also called row-major `== C_CONTIGUOUS`
+  - the default memeory layout is called "C-contiguous" or "row-major": `np.zeros((2,2)).flags.c_contiguous == True` and `np.zeros((2,2)).flags.c_contiguous == False` 
   - rule of thumb for multi-dimensional numpy arrays:
     - the right-most index should be the inner-most loop in a series of nested loops over the dimensions of a multi-dimensional array
     - the previous rule can be remembered as *the right-most index changes the faster* in a series of nested loops
@@ -73,7 +73,8 @@ Setup:
           y = np.zeros((length_of_one_series, n_series)) # ➔ bad!
         ```
     - … unless of course you plan to mostly loop *across* time series :)
-    - watch out when migrating code from MATLAB® or to `pandas.DataFrame` ➔ they store data in memory using the opposite convention, the column-major order!!!
+    - watch out when migrating code from MATLAB® or to [`pandas.DataFrame`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+        ➔ they store data in memory using the opposite convention, the column-major order!!!
 
 ## A final exercise to put it all together
   - fork this repo to your account and clone your fork on the laptop
