@@ -1,7 +1,7 @@
 # What every scientist should know about computer architecture
 
 ## Introduction
-  - [Puzzle](puzzle.ipynb)
+  - [Puzzle](puzzle.ipynb) – [Browser executable version](https://jupyterlite.mintgruen.tu-berlin.de/sites/mathesis-videospiel/2025-tam-retreat/)
   - Question: how come that swapping dimensions in a for-loop makes out for a huge slowdown?
   - Let students play around with the notebook and try to find the "bug"
   - A more thorough [benchmark](benchmark_python/)
@@ -58,7 +58,7 @@
 ## A final exercise to put it all together
   - fork this repo to your account and clone your fork on the laptop
   - create a branch `ex` and switch to it
-  - work on the [exercise](exercise.ipynb)
+  - work on the [exercise](exercise.ipynb)– [Browser executable version](https://jupyterlite.mintgruen.tu-berlin.de/sites/mathesis-videospiel/2025-tam-retreat/)
   - push your solution to your fork and create a Pull Request to this repo
 
 

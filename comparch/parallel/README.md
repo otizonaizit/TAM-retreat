@@ -1,5 +1,5 @@
 # The dangers and joys of automatic parallelization (like in numpy linear algebra routines) and the use of clusters/schedulers (but also on your laptop)
-- Go through the [notebook](parallel.ipynb) to play around with numpy auto-parallelization, CPU affinity and OpenMP thread pool control
+- Go through the [notebook](../parallel.ipynb) to play around with numpy auto-parallelization, CPU affinity and OpenMP thread pool control
 
 - Now we want to submit our code to a cluster, or even just running it in parallel on our own laptop:
   - run [`overcommit.py`](overcommit.py) while monitoring with htop
