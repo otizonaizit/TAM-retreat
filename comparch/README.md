@@ -14,7 +14,7 @@
 
 ## Analog programming
 
-  - [Two exercises to activate the body and the mind](human_computer/)
+  - [Two exercises to activate the body and the mind](analog_programming.md)
 
 
 ## Back to the Python benchmark (second try)
