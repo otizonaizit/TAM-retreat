@@ -1,1 +1,8 @@
 publish_lecture_notes.sh
+*.egg-info
+ODD/src/__pycache__/
+ODD/src/italianfood/__pycache__/
+ODD/src/daily_menu.py
+ODD/src/unprotected_code.py
+*.DS_Store
+*~$*.pptx

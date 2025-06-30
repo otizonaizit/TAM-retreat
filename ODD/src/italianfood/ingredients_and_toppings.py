@@ -1,0 +1,17 @@
+# Dough ingredients
+FLOUR_PER_PIZZA = 250  # grams
+WATER_PER_PIZZA = 150  # grams
+SALT_PER_PIZZA = 5  # grams
+YEAST_PER_PIZZA = 2  # grams
+
+# Toppings
+TOMATO_SAUCE = "tomato sauce"
+MOZZARELLA = "mozzarella"
+TOPPINGS_MARGARITA_PIZZA = [TOMATO_SAUCE, MOZZARELLA]
+TOPPINGS_FUNGHI_PIZZA = [TOMATO_SAUCE, MOZZARELLA, "mushrooms"]
+TOPPINGS_VERDURE_GRIGLIATE_PIZZA = [
+    TOMATO_SAUCE,
+    MOZZARELLA,
+    "grilled vegetables"
+]
+
