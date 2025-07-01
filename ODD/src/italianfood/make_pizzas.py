@@ -1,6 +1,7 @@
 from italianfood.dough import PizzaDough
 from italianfood.ovens import bake_pizza
 
+
 class Pizza:
     dough: PizzaDough
     num_pizzas: int = 1
@@ -15,7 +16,9 @@ class Pizza:
 
     def make_pizza_balls(self):
         self.weight_per_pizza_ball = self.dough.total_weight / self.num_pizzas
-        print(f"Each Pizza will be made out of {self.weight_per_pizza_ball} g dough.\n...")
+        print(
+            f"Each Pizza will be made out of {self.weight_per_pizza_ball} g dough.\n..."
+        )
         print("Now imagine expert pizza tossing skills!\n...")
         return self
 
@@ -35,7 +38,7 @@ def make_margarita_pizza(num_pizzas: int = 1):
         flour_weight=total_flour_weight,
         water_weight=total_water_weight,
         salt_weight=total_salt_weight,
-        yeast_weight=total_yeast_weight
+        yeast_weight=total_yeast_weight,
     )
 
     toppings = ["tomato sauce", "mozzarella cheese", "fresh basil"]
@@ -43,8 +46,6 @@ def make_margarita_pizza(num_pizzas: int = 1):
     pizza = Pizza(dough=dough, num_pizza_balls=num_pizzas)
     pizza.add_toppings(toppings)
 
-    baked_pizza = bake_pizza(pizza) 
-    
+    baked_pizza = bake_pizza(pizza)
+
     return baked_pizza
-
-
