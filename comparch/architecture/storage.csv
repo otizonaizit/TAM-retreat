@@ -1,0 +1,49 @@
+Teletype Model 33 paper tape,10 B/s,1963
+Single Density 8-inch FM Floppy Disk Controller (160 KB),31 KB/s,1973
+C2N Commodore Datasette 1530 cassette tape interface,15 B/s,1977
+Apple II cassette tape interface,200 B/s,1977
+TRS-80 Model 1 Level 1 BASIC cassette tape interface,32 B/s,1977
+Single Density 5.25-inch FM Floppy Disk Controller (180 KB),15.5 KB/s,1978
+MFM hard disk,0.625 MB/s,1980
+Amstrad CPC tape,250 B/s,1984
+High Density MFM Floppy Disk Controller (1.2 MB/1.44 MB),31 KB/s,1984
+ATA PIO Mode 0,3.3 MB/s,1986
+SCSI (Narrow SCSI) (5 MHz),5 MB/s,1986
+CD Controller (1×),0.146 MB/s,1988
+Serial Storage Architecture SSA,80 MB/s,1990
+ATA PIO Mode 1,5.2 MB/s,1994
+ATA PIO Mode 2,8.3 MB/s,1994
+ATA PIO Mode 3,11.1 MB/s,1996
+ATA PIO Mode 4,16.7 MB/s,1996
+Fibre Channel 1GFC (1.0625 GHz),103.23 MB/s,1997
+Ultra DMA ATA 33,33 MB/s,1998
+Ultra DMA ATA 66,66.7 MB/s,2000
+Fibre Channel 2GFC (2.125 GHz),206.5 MB/s,2001
+Ultra DMA ATA 100,100 MB/s,2002
+SATA revision 1.0,150 MB/s,2003
+iSCSI over 10GbE,1.239 GB/s,2004
+iSCSI over Fast Ethernet,11.9 MB/s,2004
+iSCSI over gigabit Ethernet- jumbo frames,123.9 MB/s,2004
+Serial Attached SCSI (SAS) SAS-1,300 MB/s,2004
+SATA Revision 2.0,300 MB/s,2004
+Fibre Channel 4GFC (4.25 GHz),413 MB/s,2004
+Ultra DMA ATA 133,133 MB/s,2005
+Fibre Channel 8GFC (8.50 GHz),826 MB/s,2005
+iSCSI over InfiniBand 4×,4 GB/s,2007
+SATA Revision 3.0,600 MB/s,2008
+FCoE over 10GbE,1.206 GB/s,2009
+AoE over 10GbE,1.242 GB/s,2009
+AoE over Fast Ethernet,11.9 MB/s,2009
+AoE over gigabit Ethernet- jumbo frames,124.2 MB/s,2009
+Serial Attached SCSI (SAS) SAS-2,600 MB/s,2009
+FCoE over 100G Ethernet,12.064 GB/s,2010
+iSCSI over 100G Ethernet,12.392 GB/s,2010
+Fibre Channel 16GFC (14.025 GHz),1.652 GB/s,2011
+Serial Attached SCSI (SAS) SAS-3,1.2 GB/s,2013
+SATA Express,2 GB/s,2013
+NVMe over M.2 or U.2 (using PCI Express 3.0 ×4 link),3.938 GB/s,2013
+Fibre Channel 32GFC (28.05 GHz),3.303 GB/s,2016
+Serial Attached SCSI (SAS) SAS-4,2.4 GB/s,2017
+NVMe over M.2 or U.2 (using PCI Express 4.0 ×4 link),7.876 GB/s,2017
+UFS (version 3.0),2.9 GB/s,2018
+NVMe over M.2- U.2- U.3 or EDSFF (using PCI Express 5.0 ×4 link),15.754 GB/s,2019
