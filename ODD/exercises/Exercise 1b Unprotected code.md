@@ -1,4 +1,4 @@
-## Exercise 2a: Unprotected code
+## Exercise 1b: Unprotected code
 
 #### Goal
 

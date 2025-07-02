@@ -1,4 +1,4 @@
-## Exercise 5a: Virtual Environments
+## Exercise 5: Virtual Environments
 
 #### Goal
 
