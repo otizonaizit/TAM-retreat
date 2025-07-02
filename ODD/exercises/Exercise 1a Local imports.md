@@ -15,12 +15,12 @@ Retrival practice in "basic" importing.
 
 ```python
 def todays_special():
-    pizza_margarita = make_margarita_pizza()
+    pizza_margherita = make_margherita_pizza()
 
     spritz = make_apfelschorle()
 
     print("Today's special is ready! Buon Appetito!")
-    return pizza_margarita, spritz
+    return pizza_margherita, spritz
 
 pizza, drink = todays_special()
 ```
