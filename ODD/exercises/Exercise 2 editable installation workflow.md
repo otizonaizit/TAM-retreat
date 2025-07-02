@@ -15,7 +15,7 @@ Use your git skills to commit the changes you made to a new branch, and create a
 - Call this function from different places in your code
   - in the if __name__ == "__main__" part of the same file
   - add it to the tasting menu in the `scripts/run_pizza_restaurant.py` file
-  - replace the margarita pizza in the `src/daily_menu.py` file with your pizza
+  - replace the margherita pizza in the `src/daily_menu.py` file with your pizza
 
 -------------
 #### Extra credit

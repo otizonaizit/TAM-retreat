@@ -1,10 +1,10 @@
-from italianfood.make_pizzas import make_margarita_pizza
+from italianfood.make_pizzas import make_margherita_pizza
 
 
 def pizza_tasting_menu():
-    pizza_margarita = make_margarita_pizza(num_pizzas=10)
+    pizza_margherita = make_margherita_pizza(num_pizzas=10)
 
-    all_pizzas = [pizza_margarita]
+    all_pizzas = [pizza_margherita]
 
     return all_pizzas
 

@@ -28,7 +28,7 @@ class Pizza:
         return self
 
 
-def make_margarita_pizza(num_pizzas: int = 1):
+def make_margherita_pizza(num_pizzas: int = 1):
     total_flour_weight = 180 * num_pizzas
     total_water_weight = 126 * num_pizzas
     total_salt_weight = 2 * num_pizzas
