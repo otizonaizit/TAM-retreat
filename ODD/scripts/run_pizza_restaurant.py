@@ -1,8 +1,8 @@
 from italianfood.make_pizzas import make_margarita_pizza
 
 
-def pizza_tasing_menu():
-    pizza_margarita = make_margarita_pizza(num_pizzas=1)
+def pizza_tasting_menu():
+    pizza_margarita = make_margarita_pizza(num_pizzas=10)
 
     all_pizzas = [pizza_margarita]
 
@@ -10,4 +10,4 @@ def pizza_tasing_menu():
 
 
 if __name__ == "__main__":
-    pizzas = pizza_tasing_menu()
+    pizzas = pizza_tasting_menu()
